@@ -23,12 +23,19 @@
             <input type="text" name="email" maxlength="50" size="30">
           </td>
         </tr>
+        <tr>
+          <td><label for="numri i telefonit">Numri i telefonit:</label></td>
+          <td>
+            <input type="text" name="numri i telefonit" maxlength="50" size="30">
+          </td>
+        </tr>
 
         <tr>
           <td valign="top">Want a reply?</td>
           <td>
             <input type="radio" name="want_reply" value="sure">Sure!<br/>
-            <input type="radio" name="want_reply" value="nope">Nope.
+            <input type="radio" name="want_reply" value="nope">Nope.<br/>
+            <input type="radio" name="want_reply" value§="maybe">Maybe?
           </td>
         </tr>
 
@@ -40,6 +47,9 @@
             <br/>
             <input type="checkbox" name="reply_by_phone">
             <label for="reply_by_phone">Phone</label>
+            <br/>
+            <input type="checkbox" name="reply_by_other">
+            <label for="reply_by_other">Other</label>
           </td>
         </tr>
 
@@ -51,6 +61,15 @@
             <textarea name="message" maxlength="1000" cols="25" rows="6"></textarea>
           </td>
         </tr>
+        <tr>
+           <td valign="top">
+            <label for="comment">Comment:</label>
+          </td>
+          <td>
+            <textarea name="comment" maxlength="1000" cols="25" rows="6"></textarea>
+          </td>
+        </tr>
+          
 
         <tr>
           <td></td>
